@@ -1,0 +1,47 @@
+.inpAndPage{
+    height: 80px;
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.pagination .previous{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.pagination .next {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.search input{
+    border: none;
+    width: 300px;
+    height: 40px;
+    font-size: large;
+    padding-left: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+input:focus{
+    outline: none;
+}
